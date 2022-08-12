@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inputs,
+.root {
+    width: 100%;
+    height: max-content;
+    background: turquoise;
+    padding: 20px;
+}
+
+.inp_item {
+    width: 85%;
+    height: 40px;
+    background: teal;
+    border-radius: 4px;
+    padding: 5px 20px;
+    margin-left: 65px;
+    margin-bottom: 20px;
+}
+
+.createBtn,
+.btn_delete {
+    width: 75px;
+    height: 35px;
+    border-radius: 4px;
+    margin-left: calc(50% - 37px);
+}
+
+.createBtn {
+background: blueviolet;
+}
+
+.btn_delete {
+    background: tomato;
+    margin-bottom: 15px;
+}
+
+.userCard {
+    width: 100%;
+    height: max-content;
+    background: rgb(141, 229, 231);
+    border-radius: 4px;
+    margin-top: 15px;
+    border: 1px solid teal;
+}
+
+.userName {
+    width: 100%;
+    height: max-content;
+    padding: 15px 35px;
+}
